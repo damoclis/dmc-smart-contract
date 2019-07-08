@@ -1,0 +1,11 @@
+{
+  "extends": "./dmc-lib/dmcscript/std/assembly.json",
+  "include": [
+    "./contract/*.ts",
+    "./index.d.ts"
+  ],
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "allowJs": true
+  }
+}
